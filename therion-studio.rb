@@ -1,8 +1,8 @@
 class TherionStudio < Formula
   desc "Qt desktop editor for Therion cave-survey projects"
   homepage "https://github.com/ladislavb/therion-studio"
-  url "https://github.com/ladislavb/therion-studio/archive/refs/tags/v2026.5.3.tar.gz"
-  sha256 "9f9c01661940a50d493463ef09cc1253d43233b70c1a4d5942545415e8591b82"
+  url "https://github.com/ladislavb/therion-studio/archive/refs/tags/v2026.5.4.tar.gz"
+  sha256 "a0ce05930e3558114d5aefdfda806252e4ea8e1461ce6cc7bf40917f5020ce5c"
   license "GPL-3.0-or-later"
 
   depends_on "cmake" => :build

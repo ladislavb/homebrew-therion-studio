@@ -9,6 +9,7 @@ class TherionStudio < Formula
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
   depends_on "qt"
+  depends_on "qttranslations"
   depends_on macos: :sequoia
 
   def install

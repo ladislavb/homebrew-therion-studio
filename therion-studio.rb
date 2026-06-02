@@ -19,6 +19,8 @@ class TherionStudio < Formula
            "-G", "Ninja",
            "-DCMAKE_BUILD_TYPE=Release",
            "-DCMAKE_PREFIX_PATH=#{qt_prefix}",
+           "-DTHERION_STUDIO_VERSION=#{version}",
+           "-DTHERION_STUDIO_PACKAGE_LABEL=#{version}",
            *std_cmake_args
     system "cmake", "--build", "build", "--target", "TherionStudio"
     system "cmake", "--install", "build"

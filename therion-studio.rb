@@ -38,7 +38,7 @@ class TherionStudio < Formula
         #{opt_prefix}/TherionStudio.app
 
       To expose it in Finder/Launchpad-style workflows, create a symlink:
-        ln -sfn "#{opt_prefix}/TherionStudio.app" "/Applications/Therion Studio.app"
+        cp -R "#{opt_prefix}/TherionStudio.app" "/Applications/Therion Studio.app"
 
       The external Therion command-line executable is not bundled.
       Install it separately if needed:

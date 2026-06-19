@@ -1,8 +1,8 @@
 class TherionStudio < Formula
   desc "Qt desktop editor for Therion cave-survey projects"
   homepage "https://github.com/ladislavb/therion-studio"
-  url "https://github.com/ladislavb/therion-studio/archive/refs/tags/v2026.6.5.tar.gz"
-  sha256 "a90b22d7751b81206056af956c34d470cc0d311bf4af3f2936cac9d71fc80af1"
+  url "https://github.com/ladislavb/therion-studio/archive/refs/tags/v2026.6.6.tar.gz"
+  sha256 "d39504910be4d5ad6d5a41d23c1c3eeb94cd9f59aa3444844a2d679ab582cf14"
   license "GPL-3.0-or-later"
 
   depends_on "cmake" => :build
@@ -37,7 +37,8 @@ class TherionStudio < Formula
       Therion Studio.app was installed to:
         #{opt_prefix}/TherionStudio.app
 
-      To expose it in Finder/Launchpad-style workflows, create a symlink:
+      To install the app bundle into /Applications, run:
+        rm -rf "/Applications/Therion Studio.app"
         cp -R "#{opt_prefix}/TherionStudio.app" "/Applications/Therion Studio.app"
 
       The external Therion command-line executable is not bundled.
